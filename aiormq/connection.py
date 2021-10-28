@@ -395,7 +395,7 @@ class Connection(Base, AbstractConnection):
 
             connection_tune: spec.Connection.Tune = frame
 
-            if self.heartbeat_timeout > 0:
+            if 0 <= self.heartbeat_timeout < 65535:
                 connection_tune.heartbeat = self.heartbeat_timeout
 
             await self._rpc(
