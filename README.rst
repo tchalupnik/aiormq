@@ -14,6 +14,10 @@ AIORMQ
    :target: https://github.com/mosquito/aiormq/actions?query=workflow%3Atox
    :alt: Build status
 
+
+        test test:wq
+
+
 .. image:: https://img.shields.io/pypi/v/aiormq.svg
    :target: https://pypi.python.org/pypi/aiormq/
    :alt: Latest Version
